@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Little Hacker",
+    "description": "Block accessing to the specified Web sites. Safe your child from web .",
+    "version": "1.6.94",
+    "options_ui": {
+		"page": "options.html",
+		"browser_style": true
+	  },
+    "permissions": ["storage", "tabs"],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "incognito": "spanning",
+	"browser_specific_settings": {
+		"gecko": {
+		  "id": "5a89517ff62875601e5bbc48262b34b8e1aac733@temporary-addon"
+		}
+	},
+	"icons": {
+		"48": "./icons/icon6.png",
+		"96": "./icons/icon6.png"
+	}
+  }

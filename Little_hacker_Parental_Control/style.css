@@ -1,0 +1,22 @@
+body {
+	background-color: #F0E2DF;
+	color: #222;
+}
+
+.uppercase{
+	text-transform: uppercase;
+	text-align:center;
+}
+
+textarea {
+	background-color: #222;
+	color: #ffffff;
+}
+
+.hidden{
+    display: none;
+}
+
+.sub{
+	text-align: center;
+}
